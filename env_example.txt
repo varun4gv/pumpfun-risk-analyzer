@@ -1,0 +1,57 @@
+# Application Configuration
+DEBUG=false
+HOST=0.0.0.0
+PORT=8000
+ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8080
+
+# Database Configuration
+DATABASE_URL=postgresql://postgres:password@localhost:5432/pumpfun_analyzer
+REDIS_URL=redis://localhost:6379/0
+
+# Solana Configuration
+SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
+SOLANA_WS_URL=wss://api.mainnet-beta.solana.com
+SOLANA_COMMITMENT=confirmed
+
+# Pump.fun API
+PUMPFUN_API_URL=https://frontend-api.pump.fun
+PUMPFUN_API_KEY=your_pumpfun_api_key_here
+
+# Risk Analysis Configuration
+RISK_UPDATE_INTERVAL=300
+HOLDER_CONCENTRATION_THRESHOLD=0.7
+WASH_TRADING_THRESHOLD=0.8
+LIQUIDITY_REMOVAL_WINDOW=86400
+
+# Alert Configuration
+ALERT_EMAIL_ENABLED=true
+ALERT_DISCORD_ENABLED=true
+ALERT_TELEGRAM_ENABLED=true
+
+# Email Configuration
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your_email@gmail.com
+SMTP_PASSWORD=your_app_password
+SMTP_FROM_EMAIL=your_email@gmail.com
+
+# Discord Configuration
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your_webhook_url
+
+# Telegram Configuration
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_CHAT_ID=your_telegram_chat_id
+
+# Twitter Configuration
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+TWITTER_ACCESS_TOKEN=your_twitter_access_token
+TWITTER_ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
+
+# Monitoring
+ENABLE_METRICS=true
+METRICS_PORT=9090
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FORMAT=%(asctime)s - %(name)s - %(levelname)s - %(message)s
